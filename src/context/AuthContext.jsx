@@ -21,7 +21,7 @@ export function AuthProvider({ children }) {
     if (!username.trim() || !password.trim()) {
       return {
         ok: false,
-        error: 'Username and password are required.',
+        error: 'Username and password are required to access blog content.',
       }
     }
 

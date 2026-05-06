@@ -10,7 +10,7 @@ function BlogPage() {
         <p className="eyebrow">Today&apos;s Top Posts</p>
         <h1>Read, reflect, and return with questions</h1>
         <p className="lead">
-          This feed blends your original writing with imported API posts to match the live blog experience.
+          This feed is a collection of recent blog posts.
         </p>
       </section>
 

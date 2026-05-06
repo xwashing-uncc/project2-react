@@ -31,10 +31,10 @@ function AppShell() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/posts/:postId" element={<PostPage />} />
 
         <Route element={<ProtectedRoute />}>
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/posts/:postId" element={<PostPage />} />
         </Route>
 
         <Route path="*" element={<Navigate to="/" replace />} />

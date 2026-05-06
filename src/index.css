@@ -1,11 +1,11 @@
 :root {
-  --bg-1: #f6f7fb;
-  --bg-2: #e9eef7;
+  --bg-1: #b7e3c0;
+  --bg-2: #b3e8d2;
   --ink-1: #132033;
   --ink-2: #2e4159;
   --ink-3: #64748b;
   --line: #d7e0eb;
-  --card: rgba(255, 255, 255, 0.82);
+  --card: rgba(122, 252, 211, 0.82);
   --brand: #0a7a70;
   --brand-strong: #075b54;
   --ring: #0a7a70;
@@ -58,7 +58,7 @@ a {
   gap: 1rem;
   padding: 1rem 1.4rem;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(131, 230, 195, 0.86);
 }
 
 .brand {
