@@ -1,6 +1,5 @@
 import { Link, Navigate, NavLink, Route, Routes } from 'react-router-dom'
 import { useAuth } from './context/AuthContext'
-import ProtectedRoute from './components/ProtectedRoute'
 import BlogPage from './pages/BlogPage'
 import LandingPage from './pages/LandingPage'
 import LoginPage from './pages/LoginPage'
@@ -32,10 +31,8 @@ function AppShell() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
 
-        <Route element={<ProtectedRoute />}>
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/posts/:postId" element={<PostPage />} />
-        </Route>
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/posts/:postId" element={<PostPage />} />
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
